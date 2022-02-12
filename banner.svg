@@ -1,0 +1,34 @@
+<svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @keyframes typingAnim{
+          from { width: 0 }
+          to { width: 100% }
+        }
+        @keyframes typingSpeak{
+          0% { width: 1em; height: .1em }
+          100% { width: 1em; height: .5em; }
+        }
+				body,html{
+          display: block;
+          width: 100%;
+          height: 100%;
+          background: #000;
+          color: #fff;
+          padding: 0;
+          margin: 0;
+        }
+        
+        .typing > *{
+          overflow: hidden;
+          white-space: nowrap;
+          animation: typingAnim 5s steps(50);
+        }
+      </style>
+      <div class="typing">
+        <h1>Hello World, I'm Ruzeb Chowdhury</h1>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
