@@ -2,29 +2,41 @@
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
-        @keyframes typingAnim{
-          from { width: 0 }
-          to { width: 100% }
-        }
-        @keyframes typingSpeak{
-          0% { width: 1em; height: .1em }
-          100% { width: 1em; height: .5em; }
-        }
-				body,html{
-          display: block;
-          width: 100%;
-          height: 100%;
-          background: #000;
-          color: #fff;
-          padding: 0;
-          margin: 0;
-        }
-        
-        .typing > *{
-          overflow: hidden;
-          white-space: nowrap;
-          animation: typingAnim 4s steps(50);
-        }
+	@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+	html{
+	  overflow: hidden;
+	}
+	body{
+	  padding: 4em;
+	  font-family: 'Anonymous Pro', monospace;  
+	  background-color: "black;  
+	}
+	.line-1{
+	    position: relative;
+	    top: 50%;  
+	    width: 24em;
+	    margin: 0 auto;
+	    border-right: 2px solid rgba(255,255,255,.75);
+	    font-size: 180%;
+	    text-align: center;
+	    white-space: nowrap;
+	    overflow: hidden;
+	    transform: translateY(-50%);    
+	}
+
+	/* Animation */
+	.anim-typewriter{
+	  animation: typewriter 4s steps(44) 1s 1 normal both,
+		     blinkTextCursor 500ms steps(44) infinite normal;
+	}
+	@keyframes typewriter{
+	  from{width: 0;}
+	  to{width: 24em;}
+	}
+	@keyframes blinkTextCursor{
+	  from{border-right-color: rgba(255,255,255,.75);}
+	  to{border-right-color: transparent;}
+	}
       </style>
       <div class="typing">
         <h1 background-color="black" color="white">Hello World!<br/>I'm Ruzeb Chowdhury</h1>
