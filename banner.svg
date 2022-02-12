@@ -27,7 +27,8 @@
         }
       </style>
       <div class="typing">
-        <h1>Hello World, I'm Ruzeb Chowdhury</h1>
+        <h1 background-color="black" color="white">Hello World!</h1>
+	<h1 background-color="black" color="white">I'm Ruzeb Chowdhury</h1>
       </div>
     </div>
   </foreignObject>
