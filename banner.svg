@@ -23,11 +23,11 @@
         .typing > *{
           overflow: hidden;
           white-space: nowrap;
-          animation: typingAnim 5s steps(50);
+          animation: typingAnim 4s steps(50);
         }
       </style>
       <div class="typing">
-        <h1 background-color="black" color="white">Hello World!</h1>
+        <h1 background-color="black" color="white">Hello World!<br/>I'm Ruzeb Chowdhury</h1>
 	<h1 background-color="black" color="white">I'm Ruzeb Chowdhury</h1>
       </div>
     </div>
