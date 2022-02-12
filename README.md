@@ -1,16 +1,23 @@
-### Hi there 👋
+### hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 
-<!--
-**Ruzeb/Ruzeb** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<br />
 
-Here are some ideas to get you started:
+I'm [Ruzeb Chowdhury](https://www.ruzeb.com/)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<h2 align="left">:desktop_computer: Tech Stack</h2>
+
+<div display="flex" gap="8px">
+<img height="32" width="32" src="https://github.com/Ruzeb/Ruzeb/blob/main/icons/html5.svg" />
+<img height="32" width="32" src="https://github.com/Ruzeb/Ruzeb/blob/main/icons/css3.svg" />
+<img height="32" width="32" src="https://github.com/Ruzeb/Ruzeb/blob/main/icons/javascript.svg" />
+<img height="32" width="32" src="https://github.com/Ruzeb/Ruzeb/blob/main/icons/typescript.svg" />
+<img height="32" width="32" src="https://github.com/Ruzeb/Ruzeb/blob/main/icons/react.svg" />
+<img height="32" width="32" src="https://github.com/Ruzeb/Ruzeb/blob/main/icons/redux.svg" />
+<img height="32" width="32" src="https://github.com/Ruzeb/Ruzeb/blob/main/icons/vuedotjs.svg" />
+<img height="32" width="32" src="https://github.com/Ruzeb/Ruzeb/blob/main/icons/nodedotjs.svg" />
+<img height="32" width="32" src="https://github.com/Ruzeb/Ruzeb/blob/main/icons/express.svg" />
+<img height="32" width="32" src="https://github.com/Ruzeb/Ruzeb/blob/main/icons/postgresql.svg" />
+<img height="32" width="32" src="https://github.com/Ruzeb/Ruzeb/blob/main/icons/mongodb.svg" />
+<img height="32" width="32" src="https://github.com/Ruzeb/Ruzeb/blob/main/icons/git.svg" />
+</div>
+
