@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="header.svg" width="800" height="400" alt="Click to see the source">
+  <img src="banner.svg" width="800" height="400" alt="Click to see the source">
 </div>
 
 <h2 align="left">:desktop_computer: Tech Stack</h2>
