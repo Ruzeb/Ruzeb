@@ -1,8 +1,6 @@
-### hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
-
-<br />
-
-I'm [Ruzeb Chowdhury](https://www.ruzeb.com/)
+<div align="center">
+  <img src="header.svg" width="800" height="400" alt="Click to see the source">
+</div>
 
 <h2 align="left">:desktop_computer: Tech Stack</h2>
 
