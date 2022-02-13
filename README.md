@@ -1,4 +1,4 @@
-<div align="center" background-image=url("https://github.com/Ruzeb/Ruzeb/blob/new-banner/pexels-gabriela-palai-597667.jpg")>
+<div align="center">
   <img src="banner.svg" width="800" height="200" alt="Click to see the source">
 </div>
 
