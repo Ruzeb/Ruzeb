@@ -6,7 +6,7 @@
 
 	div {
 	  font-family: 'Anonymous Pro', monospace;  
-	  background-color: rgb(25,25,25);  
+	  background-color: transparent;  
 	  font-size: 180%;
 	  padding: 20px;
 	}
