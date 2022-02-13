@@ -8,6 +8,7 @@
 	  font-family: 'Anonymous Pro', monospace;  
 	  background-color: transparent;
 	  background-image: url("https://github.com/Ruzeb/Ruzeb/blob/new-banner/pexels-gabriela-palai-597667.jpg");
+	  background-size: cover;
 	  font-size: 180%;
 	  padding: 10px;
 	}
