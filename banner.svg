@@ -1,139 +1,130 @@
-<svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 800 200" width="800" height="200" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
-	@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+				@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+				div {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					justify-content: center;
+					background: linear-gradient(-45deg, rgba(57,139,156,1), rgba(51,51,101,1), rgba(44,78,107,1));
+					border-radius: 4px;
+					background-size: 200% 200%;
+					animation: gradient 8s ease infinite;
+					font-family: 'Anonymous Pro', monospace;  
+					font-size: 32px;
+					width: 800px;
+					height: 200px;
+				}
 
-	div {
-	  font-family: 'Anonymous Pro', monospace;  
-	  background-color: rgb(25,25,25);  
-	  font-size: 180%;
-	  padding: 20px;
-	}
+				.css-typing p {
+					margin: 2px;
+					filter: blue(0px);
+					text-align: center;
+					border-right: .15em solid orange;
+					color: white;
+					white-space: nowrap;
+					overflow: hidden;
+				}
+				.css-typing p:nth-child(1) {
+					width: 10em;
+					-webkit-animation: type 2s steps(40, end);
+					animation: type 2s steps(40, end);
+					-webkit-animation-fill-mode: forwards;
+					animation-fill-mode: forwards;
+				}
 
-	.css-typing p {
-	  border-right: .15em solid orange;
-	  color: white;
-	  white-space: nowrap;
-	  overflow: hidden;
-	}
-	.css-typing p:nth-child(1) {
-	  width: 7.3em;
-	  -webkit-animation: type 2s steps(40, end);
-	  animation: type 2s steps(40, end);
-	  -webkit-animation-fill-mode: forwards;
-	  animation-fill-mode: forwards;
-	}
+				.css-typing p:nth-child(2) {
+					width: 13em;
+					opacity: 0;
+					-webkit-animation: type2 2s steps(40, end), blink .5s step-end infinite alternate;
+					animation: type2 2s steps(40, end), blink .5s step-end infinite alternate;
+					-webkit-animation-delay: 2s;
+					animation-delay: 2s;
+					-webkit-animation-fill-mode: forwards;
+					animation-fill-mode: forwards;
+				}
 
-	.css-typing p:nth-child(2) {
-	  width: 11.5em;
-	  opacity: 0;
-	  -webkit-animation: type2 2s steps(40, end);
-	  animation: type2 2s steps(40, end);
-	  -webkit-animation-delay: 2s;
-	  animation-delay: 2s;
-	  -webkit-animation-fill-mode: forwards;
-	  animation-fill-mode: forwards;
-	}
+				@keyframes type {
+					0% {
+						width: 0;
+					}
+					99.9% {
+						border-right: .15em solid orange;
+					}
+					100% {
+						border: none;
+					}
+				}
 
-	.css-typing p:nth-child(3) {
-	  width: 7.3em;
-	  opacity: 0;
-	  -webkit-animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
-	  animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
-	  -webkit-animation-delay: 4s;
-	  animation-delay: 4s;
-	  -webkit-animation-fill-mode: forwards;
-	  animation-fill-mode: forwards;
-	}
+				@-webkit-keyframes type {
+					0% {
+						width: 0;
+					}
+					99.9% {
+						border-right: .15em solid orange;
+					}
+					100% {
+						border: none;
+					}
+				}
 
-	@keyframes type {
-	  0% {
-	    width: 0;
-	  }
-	  99.9% {
-	    border-right: .15em solid orange;
-	  }
-	  100% {
-	    border: none;
-	  }
-	}
+				@keyframes type2 {
+					0% {
+						width: 0;
+					}
+					1% {
+						opacity: 1;
+					}
+					100% {
+						opacity: 1;
+					}
+				}
 
-	@-webkit-keyframes type {
-	  0% {
-	    width: 0;
-	  }
-	  99.9% {
-	    border-right: .15em solid orange;
-	  }
-	  100% {
-	    border: none;
-	  }
-	}
+				@-webkit-keyframes type2 {
+					0% {
+						width: 0;
+					}
+					1% {
+						opacity: 1;
+					}
+					100% {
+						opacity: 1;
+					}
+				}
 
-	@keyframes type2 {
-	  0% {
-	    width: 0;
-	  }
-	  1% {
-	    opacity: 1;
-	  }
-	  99.9% {
-	    border-right: .15em solid orange;
-	  }
-	  100% {
-	    opacity: 1;
-	    border: none;
-	  }
-	}
+				@keyframes blink {
+					50% {
+						border-color: transparent;
+					}
+				}
+				@-webkit-keyframes blink {
+					50% {
+						border-color: tranparent;
+					}
+				}
 
-	@-webkit-keyframes type2 {
-	  0% {
-	    width: 0;
-	  }
-	  1% {
-	    opacity: 1;
-	  }
-	  99.9% {
-	    border-right: .15em solid orange;
-	  }
-	  100% {
-	    opacity: 1;
-	    border: none;
-	  }
-	}
-
-	@-webkit-keyframes type3 {
-	  0% {
-	    width: 0;
-	  }
-	  1% {
-	    opacity: 1;
-	  }
-	  100% {
-	    opacity: 1;
-	  }
-	}
-
-	@keyframes blink {
-	  50% {
-	    border-color: transparent;
-	  }
-	}
-	@-webkit-keyframes blink {
-	  50% {
-	    border-color: tranparent;
-	  }
-	}
-      </style>
-	<div class="css-typing">
-	  <p>
-	    Hello World!
-	  </p>
-	  <p>
-	    I'm Ruzeb Chowdhury
-	  </p>
-	</div>
-	</div>
+			@keyframes gradient {
+				0% {
+					background-position: 0% 50%;
+				}
+				50% {
+					background-position: 100% 40%;
+				}
+				100% {
+					background-position: 0% 50%;
+				}
+			}
+     </style>
+			<div class="css-typing">
+				<p>
+					Hello World 🌍!
+				</p>
+				<p>
+					I'm Ruzeb Chowdhury 🖐
+				</p>
+			</div>
+		</div>
   </foreignObject>
 </svg>
