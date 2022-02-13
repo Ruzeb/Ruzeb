@@ -36,7 +36,7 @@
 <div align="center">
   <a href="https://www.linkedin.com/in/ruzebchowdhury/" target="_blank"><img height="48" width="48" src="https://github.com/Ruzeb/Ruzeb/blob/main/icons/linkedin.svg" /></a>
   &nbsp;
-  <a href="https://www.ruzeb.com" target="_blank"><img height="48" width="48" src="https://github.com/Ruzeb/Ruzeb/blob/main/icons/website.svg" /></a>
+  <a href="https://www.ruzeb.com" target="_blank"><img height="48" width="48" src="https://github.com/Ruzeb/Ruzeb/blob/main/website.svg" /></a>
   &nbsp;
   <a href="mailto:ruzeb.chowdhury@gmail.com" target="_blank"><img height="48" width="48" src="https://github.com/Ruzeb/Ruzeb/blob/main/icons/gmail.svg" /></a>
 </div>
