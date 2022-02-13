@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" background-img="https://github.com/Ruzeb/Ruzeb/blob/new-banner/pexels-gabriela-palai-597667.jpg">
   <img src="banner.svg" width="800" height="400" alt="Click to see the source">
 </div>
 
